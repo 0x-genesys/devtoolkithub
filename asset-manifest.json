@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/devtoolkithub/static/css/main.1ec630db.css",
+    "main.js": "/devtoolkithub/static/js/main.3e04535b.js",
+    "index.html": "/devtoolkithub/index.html",
+    "main.1ec630db.css.map": "/devtoolkithub/static/css/main.1ec630db.css.map",
+    "main.3e04535b.js.map": "/devtoolkithub/static/js/main.3e04535b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1ec630db.css",
+    "static/js/main.3e04535b.js"
+  ]
+}
