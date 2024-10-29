@@ -1,0 +1,42 @@
+/* DataBeautifier.css */
+
+/* Output Styling */
+.output-text {
+    background-color: #f1f3f5; /* Light gray background for output */
+    padding: 15px;
+    border-radius: 4px;
+    overflow-x: auto;
+    white-space: pre; /* This keeps the formatting */
+    font-family: monospace; /* Monospace font for better readability */
+    text-align: left; /* Ensure text is left-aligned */
+    color: maroon; /* Change text color to maroon */
+}
+
+/* Textarea Styling */
+.input-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    margin-bottom: 10px; /* Space below the textarea */
+    font-family: monospace; /* Monospace font for consistency */
+    font-size: 14px; /* Slightly larger font size */
+    color: #333; /* Dark text color */
+    background-color: #ffffff; /* White background */
+}
+
+/* Button Styling */
+.beautify-button {
+    padding: 10px 15px;
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    background-color: maroon; /* Maroon background */
+    color: white; /* White text color */
+    font-size: 16px; /* Larger font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.beautify-button:hover {
+    background-color: darkred; /* Darker shade of maroon on hover */
+}

@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: maroon;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: maroon;
+}
+
+h3 {
+    color: maroon;
+    margin-top: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Main Container */
+.encoder-decoder {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Textareas */
+.input-textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    resize: vertical;
+}
+
+/* Buttons */
+.beautify-button {
+    background-color: maroon;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+}
+
+.beautify-button:hover {
+    background-color: #8b0000; /* Darker shade for hover effect */
+}
+
+/* Output Text */
+.output-text {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    white-space: pre-wrap; /* Preserve whitespace */
+    overflow-wrap: break-word; /* Allow wrapping long words */
+}
+
+.ad {
+    position: relative;
+    width: 200px; /* Set width for ads */
+    background-color: #e0e0e0; /* Light gray background */
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.left-ad {
+    position: fixed; /* Keep it fixed on the left side */
+    top: 50%; /* Center vertically */
+    left: 20px; /* Margin from the left */
+    transform: translateY(-50%); /* Adjust for true centering */
+    width: 200px; /* Width of the left ad */
+    background-color: #e0e0e0; /* Light gray background */
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    z-index: 1000; /* Ensure it appears above other content */
+}
+
+.right-ad {
+    position: fixed; /* Keep it fixed on the right side */
+    top: 50%; /* Center vertically */
+    right: 20px; /* Margin from the right */
+    transform: translateY(-50%); /* Adjust for true centering */
+    width: 200px; /* Width of the right ad */
+    background-color: #e0e0e0; /* Light gray background */
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+}
