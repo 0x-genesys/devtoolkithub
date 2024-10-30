@@ -1,4 +1,4 @@
-import '../DataBeautifier.css'; // Import a separate CSS file for this component
+import './jsonFormatter.css'; // Import a separate CSS file for this component
 
 import React, { useState } from 'react';
 
@@ -17,11 +17,11 @@ function RegexTester() {
   };
 
   return (
-    <div className="encoder-decoder">
+    <div className="encoder-decoder"  id="RegexTester">
       <h2>Regex Tester</h2>
-      <input type="text" placeholder="Enter Regex" value={pattern} onChange={(e) => setPattern(e.target.value)} />
-      <input type="text" placeholder="Enter Text" value={text} onChange={(e) => setText(e.target.value)} />
-      <button onClick={testRegex}>Test Regex</button>
+      <input className = "output-text" type="text" placeholder="Enter Regex" value={pattern} onChange={(e) => setPattern(e.target.value)} />
+      <input className = "output-text"  type="text" placeholder="Enter Text" value={text} onChange={(e) => setText(e.target.value)} />
+      <button className="beautify-button" onClick={testRegex}>Test Regex</button>
       <p>{result}</p>
     </div>
   );

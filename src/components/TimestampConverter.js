@@ -9,7 +9,7 @@ function TimestampConverter() {
   const convertToDate = () => setDate(new Date(timestamp * 1000).toLocaleString());
 
   return (
-    <div className="encoder-decoder">
+    <div className="encoder-decoder"  id="TimestampConverter">
       <h2>Timestamp Converter</h2>
       <input className="input-textarea" type="text" placeholder="Enter Unix Timestamp" onChange={(e) => setTimestamp(e.target.value)} />
       <button className="beautify-button"  onClick={convertToDate}>Convert to Date</button>

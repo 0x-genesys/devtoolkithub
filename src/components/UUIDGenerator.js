@@ -10,9 +10,9 @@ function UUIDGenerator() {
   };
 
   return (
-    <div className="encoder-decoder">
+    <div className="encoder-decoder" id="UUIDGenerator">
       <h2>UUID Generator</h2>
-      <button onClick={generateUUID}>Generate UUID</button>
+      <button className ="beautify-button" onClick={generateUUID}>Generate UUID</button>
       <p>{uuid}</p>
     </div>
   );

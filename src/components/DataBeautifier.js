@@ -24,7 +24,7 @@ function DataBeautifier() {
   };
 
   return (
-    <div className="encoder-decoder">
+    <div className="encoder-decoder" id="DataBeautifier">
       <h2>Data Beautifier (JSON/XML)</h2>
       <select onChange={(e) => setFormatType(e.target.value)} value={formatType}>
         <option value="json">JSON</option>

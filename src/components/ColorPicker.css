@@ -1,0 +1,73 @@
+/* src/components/ColorPicker.css */
+
+/* Container styling */
+.color-picker {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.color-picker h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #4a4a4a;
+}
+
+/* Color input styling */
+.color-input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+/* Convert button styling */
+.convert-button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.convert-button:hover {
+    background-color: #45a049;
+}
+
+/* Color display section */
+.color-display {
+    width: 100%;
+    height: 100px;
+    margin: 15px 0; /* Space above and below */
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    text-align: center;
+    line-height: 100px; /* Center text vertically */
+}
+
+/* Output section */
+.output-section {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-family: monospace;
+    color: #333;
+    text-align: center;
+    word-break: break-all;
+}

@@ -1,0 +1,42 @@
+.regex-cheat-sheet {
+    max-width: 800px;  /* Set a max width for the content */
+    margin: 20px auto; /* Center the cheat sheet on the page */
+    padding: 20px;     /* Add padding around the content */
+    background-color: #f9f9f9; /* Light background for better contrast */
+    border-radius: 8px; /* Rounded corners for a softer look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.regex-cheat-sheet h2 {
+    text-align: center; /* Center the title */
+    color: maroon;      /* Maroon color for the title */
+    margin-bottom: 20px; /* Space below the title */
+}
+
+.regex-cheat-sheet ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;           /* Remove padding */
+}
+
+.regex-cheat-sheet li {
+    margin-bottom: 15px;  /* Space between list items */
+    padding: 15px;        /* Padding within each list item */
+    background-color: #fff; /* White background for each item */
+    border-left: 4px solid #85adff; /* Left border to highlight the item */
+    transition: background-color 0.3s; /* Transition effect on hover */
+}
+
+.regex-cheat-sheet li:hover {
+    background-color: #f0e7e7; /* Slightly darker background on hover */
+}
+
+.regex-cheat-sheet strong {
+    color: #85adff; /* Maroon color for strong text */
+}
+
+.regex-cheat-sheet code {
+    background-color: #e8e8e8; /* Light gray background for code */
+    border-radius: 4px; /* Rounded corners for code blocks */
+    padding: 2px 5px; /* Padding inside the code blocks */
+    font-family: 'Courier New', Courier, monospace; /* Monospace font for code */
+}

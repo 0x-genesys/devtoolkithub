@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import * as base32 from 'base32.js';
 import { Helmet } from 'react-helmet';
+import './base32.css'
 
 
 function Base32Base64JAMEncoderDecoder() {
@@ -65,7 +66,7 @@ function Base32Base64JAMEncoderDecoder() {
   };
 
   return (
-    <div className="encoder-decoder">
+    <div className="encoder-decoder" id="Base32Base64">
       <Helmet>
         <title>Dev Toolkit Hub - Base32, Base64 & JAM Encoder/Decoder</title>
         <meta name="description" content="Online tools for encoding and decoding Base32, Base64, and JAM formats. Easily transform your text data." />

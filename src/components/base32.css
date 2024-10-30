@@ -1,0 +1,54 @@
+/* General Component Styles */
+.encoder-decoder {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+.encoder-decoder h2,
+.encoder-decoder h3 {
+    color: #003366; /* Dark blue heading color */
+}
+
+/* Textareas */
+.input-textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #007acc; /* Blue border */
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    resize: vertical;
+}
+
+/* Buttons */
+.beautify-button {
+    background-color: #007acc; /* Blue button background */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+}
+
+.beautify-button:hover {
+    background-color: #005fa3; /* Darker shade on hover */
+}
+
+/* Output Text */
+.output-text {
+    background-color: #ffffff; /* White output background */
+    border: 1px solid #cce0ff; /* Light blue border */
+    padding: 10px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+}

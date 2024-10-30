@@ -7,6 +7,12 @@ body {
     color: #333;
 }
 
+
+
+html {
+    scroll-behavior: smooth; /* Enables smooth scrolling */
+}
+
 h1 {
     text-align: center;
     color: maroon;
@@ -75,38 +81,16 @@ p {
     overflow-wrap: break-word; /* Allow wrapping long words */
 }
 
-.ad {
-    position: relative;
-    width: 200px; /* Set width for ads */
-    background-color: #e0e0e0; /* Light gray background */
-    padding: 10px;
-    border-radius: 8px;
-    text-align: center;
-}
+/* Mobile-specific styling */
+@media (max-width: 1300px) {
+     nav ul {
+        flex-direction: column; /* Stacks nav items */
+        align-items: center;
+    }
 
-.left-ad {
-    position: fixed; /* Keep it fixed on the left side */
-    top: 50%; /* Center vertically */
-    left: 20px; /* Margin from the left */
-    transform: translateY(-50%); /* Adjust for true centering */
-    width: 200px; /* Width of the left ad */
-    background-color: #e0e0e0; /* Light gray background */
-    padding: 10px;
-    border-radius: 8px;
-    text-align: center;
-    z-index: 1000; /* Ensure it appears above other content */
-}
-
-.right-ad {
-    position: fixed; /* Keep it fixed on the right side */
-    top: 50%; /* Center vertically */
-    right: 20px; /* Margin from the right */
-    transform: translateY(-50%); /* Adjust for true centering */
-    width: 200px; /* Width of the right ad */
-    background-color: #e0e0e0; /* Light gray background */
-    padding: 10px;
-    border-radius: 8px;
-    text-align: center;
+    nav li {
+        margin: 8px 0;
+    }
 }
 
 /* Footer */
@@ -116,3 +100,54 @@ footer {
     font-size: 14px;
     color: #777;
 }
+
+/* Navigation Bar Container */
+nav {
+    background-color: #0077cc; /* Primary blue color for the nav */
+    padding: 10px 20px;
+    position: sticky; /* Sticks to the top on scroll */
+    top: 0;
+    z-index: 1000; /* Ensures nav is above other content */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds depth */
+}
+
+/* Navigation List */
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none; /* Removes bullet points */
+    margin: 0;
+    padding: 0;
+    justify-content: center; /* Centers items */
+}
+
+/* Navigation Items */
+nav li {
+    margin: 5px 15px;
+}
+
+/* Navigation Links */
+nav a {
+    color: #ffffff; /* White text color */
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+/* Hover and Focus Effects */
+nav a:hover,
+nav a:focus {
+    background-color: #005fa3; /* Darker blue on hover */
+    color: #e0e0e0; /* Slightly lighter text */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Subtle shadow on hover */
+}
+
+/* Active Link Styling */
+nav a:active {
+    background-color: #004080; /* Even darker blue on active */
+    color: #ffffff;
+}
+
